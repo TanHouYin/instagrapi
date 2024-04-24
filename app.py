@@ -133,4 +133,4 @@ Source: [https://www.instagram.com/p/{media.code}/](https://www.instagram.com/p/
         return 'Method Not Allowed', 405
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
