@@ -30,10 +30,8 @@ def connected():
     instaPassword = "calvin@000503"
 
     # Log in to Instagram
-    if cl is None: 
-        cl.login(instaUsername, instaPassword)
-        return 'Connected to Instagram! '
-    return 'User logged in already'
+    cl.login(instaUsername, instaPassword)
+    return 'Connected to Instagram! '
 
 @app.route('/function1', methods=['POST', 'GET'])
 def function1():
