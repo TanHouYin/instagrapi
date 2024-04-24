@@ -26,8 +26,8 @@ def upload_image_and_update_link(markdown_file):
 def connected():
     #connect to Instagram using Instagrapi
     # Instagram username and password
-    instaUsername = "calvin000503"
-    instaPassword = "calvin@000503"
+    instaUsername = "joshuatung00808"
+    instaPassword = "Joshuatung@00808"
 
     # Log in to Instagram
     cl.login(instaUsername, instaPassword)
